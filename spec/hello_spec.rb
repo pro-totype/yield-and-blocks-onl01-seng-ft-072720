@@ -28,3 +28,10 @@ describe "#hello_t" do
       .to_stdout
   end
 end
+
+def hello_t(names)
+  name= []
+  names.each do |name|
+    puts name
+  end
+end
