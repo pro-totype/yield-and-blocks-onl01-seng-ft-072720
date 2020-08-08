@@ -18,7 +18,7 @@ describe "#hello_t" do
     other_names = ["Ali", "Jasmine", "Persephone"]
 
     expect{ hello_t(other_names){ |name| puts name.upcase } }
-      .to output("Ali\nJasmine\nPersephone\n")
+      .to output("ALI\nJASMINE\nPERSEPHONE\n")
       .to_stdout
   end
 
